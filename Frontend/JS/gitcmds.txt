@@ -1,0 +1,25 @@
+git init
+
+git branch
+
+git status
+
+git add .
+
+git commit -m "to upload frontpage.html"
+
+
+git pull origin https://github.com/dishasuresh/qwinix-trainee-batch-2016.git
+
+
+git push -u origin master(or)branch1
+
+git checkout -b branch1
+(or)
+git branch -v branch1
+
+git branch master(or)branch1
+
+git push origin master
+
+ git checkout
