@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GANGOUT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     
+
+<style>
+.mySlides {display:none;}
+</style>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+
+</head>
+<body>
+<div class="row">
+<div class="col">
+<img src="gangout-logo.png" alt="cannot be displayed">
+</div>
+<nav>
+<a href="aboutus.html">ABOUT</a>
+<a href="signup.html">SIGNUP</a>
+	</nav>
+</div>
+<div class="slider" style="max-width:1500px">
+  <img class="mySlides" src="slider1.png" style="width:100%">
+  <img class="mySlides" src="slider2.png" style="width:100%">
+  <img class="mySlides" src="slider3.png" style="width:100%">
+</div>
+<!--<div class="slider">
+  <div class="transbox">
+    <p>Mys Web Aps Engg</p>
+  </div>
+</div>-->
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">&nbsp;</div>
+    <div class="col-md-6">
+   <div class="border">
+   <h1 class="signup">Upcoming Events</h1>
+   <p>The New York Knowledge Engineering Meetup is a Meetup that aims to bring together the community of software professionals, researchers, and enthusiasts, interested in how topics such as Artificial Intelligence, Knowledge Representation and Reasoning, Machine Learning, and Natural Language Processing fit together in the engineering of intelligent software system applications that acquire, exploit, or create knowledge.
+   We seek to create a friendly yet stimulating environment for people to network and share knowledge on this topics, through a platform of events and presentations. If you're interested in getting involved sign up and reach out. We look forward to connecting with you.
+
+The ISWC organizers have agreed to open up the posters & demo reception evening to NY Semantic Web and Knowledge Engineering Meetup members. </p>
+<div class="row">
+<div class="col-md-3"></div>
+  <pre>Date :
+      <em>21 July 2016  Monday</em>
+
+      Venue:
+      <em>Qwinix Technologies</em>
+      Horizon, HIEMA Convention Center Road,
+       Hebbal Industrial Estate 5, 
+       Mysuru, Karnataka 570016
+
+      <em>Attending</em>
+      Kishan g. 
+      Daniel P. 
+      Chippy K. 
+</pre>
+      </div>
+   </div>
+  
+    <div class="col-md-3">&nbsp;</div>
+  </div>
+</div>
+<div class="grey">
+<ul>
+<li><a href="homepage.html">Home</a><img src="icon-down-arrow.png"></li>
+<li><a href="aboutus.html">About Us</a><img src="icon-down-arrow.png"></li>
+<li><a href="">Events</a><img src="icon-down-arrow.png"></li>
+<li><a href="">Communities</a><img src="icon-down-arrow.png"></li>
+<li><a href="">BLog</a><img src="icon-down-arrow.png"></li>
+<li><a href="">Terms</a><img src="icon-down-arrow.png"></li>
+<li><a href="">Privacy Policy</a><img src="icon-down-arrow.png"></li>
+<li><a href="">Contact Us</a><img src="icon-down-arrow.png"></li>
+</ul>
+<img src="gangout-logo.png" alt="cannot be displayed">
+<footer>@ 2014 A product by Qwinix technologies Inc.All right reserved</footer>
+</div>
+
+
+</body>
+</html>

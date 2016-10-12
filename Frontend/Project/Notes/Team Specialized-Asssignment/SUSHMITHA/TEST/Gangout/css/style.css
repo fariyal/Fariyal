@@ -1,0 +1,39 @@
+h1{color:green;
+
+}
+.right-section{background-color: green;color: #fff;padding: 30px;
+	margin-right: -500px;
+
+}
+.left-section{
+	background-color: pink;color: #fff;padding: 30px;
+
+}
+/*Mobile portrait*/
+ @media (max-width: 480px) {
+ h1{
+ 	font-style: italic;
+ 	} }
+
+/*mobile landscape*/
+@media (min-width: 481px) and (max-width: 599px) { }
+/* small tablet portrait*/
+@media (min-width: 600px) and (max-width: 767px) {}
+
+/*small tablet landscape*/
+@media (min-width: 768px) and (max-width: 959px) { }
+
+/*Tablet landscape (1024x768)*/
+@media (min-width: 960px) and (max-width: 1199px) { }
+.id1{
+	color:red;
+
+}
+.id2{
+	padding:10px;
+	/*margin:100px;*/
+
+	background-color: grey;
+
+
+}
